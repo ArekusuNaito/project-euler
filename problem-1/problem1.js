@@ -7,7 +7,7 @@
 //Find the sum of all the multiples of [a,b,c...] below N.
 //Given [a,b,c...] and N
 
-solutionFor([5, 3], 999);
+solutionFor([5, 3], 1000);
 
 function solutionFor(numbers=[],askedNumber=Number)
 {
