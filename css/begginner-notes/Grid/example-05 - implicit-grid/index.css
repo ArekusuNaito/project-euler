@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+html,body
+{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.container
+{
+    /* border: 5px solid crimson; */
+    text-align: center;
+    display: grid;
+    height: 100%;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+    gap: 10px;
+    /*You can use flex properties here too*/
+    justify-content: space-around; 
+    margin: 10px;
+    
+}
+
+.container > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border: 5px solid black;
+}
+
+
+.container>:nth-child(1n)
+{
+    background-color: limegreen;
+}
+.container>:nth-child(2n)
+{
+    background-color: crimson;
+}
+
+.container>:nth-child(3n)
+{
+    background-color:gainsboro;
+}
+
+.container>:nth-child(4n)
+{
+    background-color:orangered;
+}

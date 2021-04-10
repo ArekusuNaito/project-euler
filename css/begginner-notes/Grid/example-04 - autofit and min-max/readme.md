@@ -1,0 +1,1 @@
+In this lesson we learn about when we use the `grid-template` properties, we are making an `explicit` grid, however we might have more cell-elements on the grid that still exist on the grid but that they are not explicitly positioned, these are set `implicitly`
