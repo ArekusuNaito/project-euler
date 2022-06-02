@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+html,body
+{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+}
+.container 
+{
+    display: grid;
+    /* CSS is smart enough to separate named lines */
+    /* The <x>-start and <x>-end  are information to make the limits*/
+    height: 100%;
+    /* margin: 10px; */
+    border: 1px solid black;
+    grid-template-columns: [fullRow-start]1fr 11fr[fullRow-end];
+    grid-template-rows: 64px auto 64px;
+    /* Justification = Row axis = X */
+    /* Default for BOTH value = stretch */
+    /* The main difference is that these affect the children */
+    
+    justify-items: end;
+    align-items: end;    
+    
+    /* align-items: center; */
+    /*  */
+}
+
+.container > div
+{
+ 
+}
+
+.header,.footer
+{
+    grid-column: fullRow;
+}
+
+.container>:nth-child(1n)
+{
+    background-color: limegreen;
+}
+.container>:nth-child(2n)
+{
+    background-color: crimson;
+}
+
+.container>:nth-child(3n)
+{
+    background-color:palegoldenrod;
+}
+
+.container>:nth-child(4n)
+{
+    background-color:orangered;
+}

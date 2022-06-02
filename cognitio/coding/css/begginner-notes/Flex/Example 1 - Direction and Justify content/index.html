@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body
+        {
+            background-color: #ffeead;
+            margin: auto;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            border: 5px solid #ffcc5c;
+            /* By default justify content is: "flex-start" */
+
+            justify-content: space-evenly;
+            height: 90vh;
+            
+        }
+        .container > div:first-child, .container > div:last-child
+        {
+            background-color: #96ceb4;
+        }
+        .container > div
+        {
+            background-color: #ff6f69;
+            font-size: 2em;
+            color: #ffeead;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <div class="home">Home</div>
+        <div class="search">Search</div>
+        <div class="logout">Logout</div>
+    </nav>
+</body>
+</html>

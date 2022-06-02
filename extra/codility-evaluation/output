@@ -1,0 +1,222 @@
+
+Compilation successful.
+
+solution should create an HTTP server that responds to GET somehow
+OK
+
+solution should return 404 when no candidates are defined
+OK
+
+solution should never retrieve a candidate who knows nothing
+Output (stderr):
+AssertionError [ERR_ASSERTION]: 200 == 404
+    at Context.<anonymous> (solution.test.js:113:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'bow' ] mine
+WRONG ANSWER
+
+solution should return nobody when querying for skills that nobody has
+Output (stderr):
+AssertionError [ERR_ASSERTION]: 200 == 404
+    at Context.<anonymous> (solution.test.js:123:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'unknown-skill', 'nonexistent-skill' ] mine
+WRONG ANSWER
+
+solution should support single-digit candidate and skill names
+Output (stderr):
+TypeError: Cannot read property 'id' of null
+    at Context.<anonymous> (solution.test.js:136:50)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ '0' ] mine
+WRONG ANSWER
+
+solution should define and retrieve a single candidate with a single skill
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(candidate)
+
+    at Context.<anonymous> (solution.test.js:148:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'assembler1' ] mine
+WRONG ANSWER
+
+solution should pick the better candidate
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(candidate)
+
+    at Context.<anonymous> (solution.test.js:170:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'es6-2', 'javascript2' ] mine
+WRONG ANSWER
+
+solution should return the winner's skillset and name alongside the ID
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(candidate)
+
+    at Context.<anonymous> (solution.test.js:187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'es6-3', 'javascript3' ] mine
+WRONG ANSWER
+
+solution should pick the best candidate among several with graded scores
+Output (stderr):
+TypeError: Cannot read property 'id' of null
+    at Context.<anonymous> (solution.test.js:214:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'skill1-15f9dbee', 'skill2-15f9dbee', 'skill3-15f9dbee' ] mine
+WRONG ANSWER
+
+solution should return any of the candidates if equally skilled
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(foundCandidate)
+
+    at Context.<anonymous> (solution.test.js:242:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[
+  'c79bb5df-906d-58c6-b406-350f083c5c66',
+  'be98f0d7-ce8f-5eff-8d41-fb22301d8a58'
+] mine
+WRONG ANSWER
+
+solution should be capable of changing the winner after querying
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(firstWinner)
+
+    at Context.<anonymous> (solution.test.js:252:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'skill1-3b252ba8', 'skill2-3b252ba8' ] mine
+WRONG ANSWER
+
+solution should not mutate state
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(firstFoundCandidate)
+
+    at Context.<anonymous> (solution.test.js:272:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[ 'skill1-948d26ce' ] mine
+[ 'skill1-948d26ce' ] mine
+WRONG ANSWER
+
+solution should pick from 2k candidates
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(foundCandidate)
+
+    at Context.<anonymous> (solution.test.js:327:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+[
+  '9b61eff2-4206-5aec-af20-c79463978ad5',
+  '0db0f676-0',
+  '0db0f676-1',
+  '0db0f676-2',
+  '0db0f676-3',
+  '0db0f676-4',
+  '0db0f676-5',
+  '0db0f676-6',
+  '0db0f676-7',
+  '0db0f676-8',
+  '0db0f676-9',
+  '0db0f676-10',
+  '0db0f676-11',
+  '0db0f676-12',
+  '0db0f676-13',
+  '0db0f676-14',
+  '0db0f676-15',
+  '0db0f676-16',
+  '0db0f676-17',
+  '0db0f676-18',
+  '0db0f676-19',
+  '0db0f676-20',
+  '0db0f676-21',
+  '0db0f676-22',
+  '0db0f676-23',
+  '0db0f676-24',
+  '0db0f676-25',
+  '0db0f676-26',
+  '0db0f676-27',
+  '0db0f676-28',
+  '0db0f676-29',
+  '0db0f676-30',
+  '0db0f676-31',
+  '0db0f676-32',
+  '0db0f676-33',
+  '0db0f676-34',
+  '0db0f676-35',
+  '0db0f676-36',
+  '0db0f676-37',
+  '0db0f676-38',
+  '0db0f676-39',
+  '0db0f676-40',
+  '0db0f676-41',
+  '0db0f676-42',
+  '0db0f676-43',
+  '0db0f676-44',
+  '0db0f676-45',
+  '0db0f676-46',
+  '0db0f676-47',
+  '0db0f676-48',
+  '0db0f676-49'
+] mine
+WRONG ANSWER
+
+Detected some errors.
+
+
+
+---- Another example
+
+solution should pick the better candidate
+Output (stderr):
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(candidate)
+
+    at Context.<anonymous> (solution.test.js:170:12)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Output:
+######
+{
+  id: 'e8402db8-f622-5a47-a1c3-832b4b26aad7',
+  name: 'Ivan Kuznetsov',
+  skills: [ 'assembler2', 'javascript2', 'coffeescript2', 'electronics2' ]
+}
+######
+######
+{
+  id: '32000f30-4e32-5e09-a065-d0d3191ac62f',
+  name: 'Hikaru Sulu',
+  skills: [ 'helm2', 'javascript2', 'es6-2' ]
+}
+######
+######
+{
+  id: 'f70b1f83-b75b-5484-ac74-f03b23b4f4e3',
+  name: 'Chaff Chaffman',
+  skills: [ 'chaff2' ]
+}
+######

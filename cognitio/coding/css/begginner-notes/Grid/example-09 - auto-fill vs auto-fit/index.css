@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+html,body
+{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.container
+{
+    display: grid;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    /* Auto fit- stretches the elements to fit the column */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-template-rows: 100px 100px;
+    gap: 5px;
+}
+
+
+
+.container2
+{
+    display: grid;
+    border: 2px solid black;
+    /* Auto fill, fills with "blank/ghost" columns */
+    /* Every 100 pixels will add a new column */
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-template-rows: 100px 100px;
+    gap: 5px;
+}
+
+.colored > div
+{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored>:nth-child(1n)
+{
+    background-color: limegreen;
+}
+.colored>:nth-child(2n)
+{
+    background-color: crimson;
+}
+
+.colored>:nth-child(3n)
+{
+    background-color:palegoldenrod;
+}
+
+.colored>:nth-child(4n)
+{
+    background-color:orangered;
+}

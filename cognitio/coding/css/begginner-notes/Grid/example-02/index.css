@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+html,body
+{
+    margin: 10px;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.container
+{
+    /* border: 5px solid crimson; */
+    text-align: center;
+    display: grid;
+    height: 98vh;
+    grid-template-rows: 40px 200px 40px;
+    grid-template-columns: repeat(12,1fr);
+    gap: 6px;
+    
+}
+
+.container > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.header
+{
+    grid-column: 1 / -1;;
+}
+
+.menu
+{
+    
+}
+
+.content
+{
+    grid-column: 2 / -1;
+}
+
+.footer
+{
+    grid-column: 1 / -1;;
+}
+
+
+
+.container>:nth-child(even)
+{
+    background-color: cornflowerblue;
+}
+
+.container>:nth-child(odd)
+{
+    background-color: chocolate;
+}

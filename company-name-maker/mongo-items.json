@@ -1,0 +1,415 @@
+[{
+  "_id": {
+    "$oid": "618bb34cfd3a022732859e40"
+  },
+  "name": "Odolwa's Remains",
+  "description": "The remains of the boss in Woodfall Temple",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb34cfd3a022732859e41"
+  },
+  "name": "Goth's Remains",
+  "description": "The remains of the boss in Snowhead Temple",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb34cfd3a022732859e42"
+  },
+  "name": "Gyorg's Remains",
+  "description": "The remains of the boss in Great Bay Temple",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb34cfd3a022732859e43"
+  },
+  "name": "Twinmold's Remains",
+  "description": "The remains of the boss in Stone Tower Temple",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e44"
+  },
+  "name": "Kokiri Sword",
+  "description": "",
+  "category": "Weapon"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e45"
+  },
+  "name": "Razor Sword",
+  "description": "",
+  "category": "Weapon"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e46"
+  },
+  "name": "Gilded Sword",
+  "description": "",
+  "category": "Weapon"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e47"
+  },
+  "name": "Hero's Shield",
+  "description": "",
+  "category": "Shield"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e48"
+  },
+  "name": "Mirror Shield",
+  "description": "",
+  "category": "Shield"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e49"
+  },
+  "name": "Quiver",
+  "description": "A quiver that can hold 30 arrows.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4a"
+  },
+  "name": "Large Quiver",
+  "description": "A quiver that can hold 40 arrows.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4b"
+  },
+  "name": "Largest Quiver",
+  "description": "A quiver that can hold 50 arrows.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4c"
+  },
+  "name": "Bomb Bag",
+  "description": "A bomb bag that can hold 20 bombs.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4d"
+  },
+  "name": "Big Bomg Bag",
+  "description": "A bomb bag that can hold 30 bombs.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4e"
+  },
+  "name": "Biggest Bomb Bag",
+  "description": "A bomb bag that can hold 40 bombs.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e4f"
+  },
+  "name": "Wallet",
+  "description": "A wallet that can hold 99 rupees.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e50"
+  },
+  "name": "Adult Wallet",
+  "description": "A wallet that can hold 200 rupees.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e51"
+  },
+  "name": "Giant Wallet",
+  "description": "A wallet that can hold 500 rupees.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e52"
+  },
+  "name": "Fire Arrow",
+  "description": "Set to it to [C] to arm your bow with arrows that burst into flame.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e53"
+  },
+  "name": "Ice Arrow",
+  "description": "Set to it to [C] to arm your bow with arrows that freeze.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb360fd3a022732859e54"
+  },
+  "name": "Light Arrow",
+  "description": "Set to it to [C] to arm your bow. Aim its sacred light at evil.",
+  "category": "Key"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e55"
+  },
+  "name": "Postman's Hat",
+  "description": "You can look in mailboxes when you wear this with [C].",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e56"
+  },
+  "name": "All-Night Mask",
+  "description": "When you wear it with [C] you don't get sleepy.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e57"
+  },
+  "name": "Blast Mask",
+  "description": "Weat it with [C], then <b>detonate</b> it with [B]. Losing hearts from the explosion is a side effect.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e58"
+  },
+  "name": "Stone Mask",
+  "description": "Become as plain as stone so you can blend into your surroundings.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e59"
+  },
+  "name": "Great Fairy's Mask",
+  "description": "The mask's hair will shimmer when you're close to a Stray Fairy.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5a"
+  },
+  "name": "Keaton Mask",
+  "description": "The mask of the ghost fox Keaton. Wear it with [C].",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5b"
+  },
+  "name": "Bremen Mask",
+  "description": "Wear it with [C] so young animals will mistake you from their leader.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5c"
+  },
+  "name": "Bunny Hood",
+  "description": "Wear it with [C] to be filled with the speed and hearing of the <b>wild</b>.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5d"
+  },
+  "name": "Don Gero's Mask",
+  "description": "When you wear it, you call the Frog Choir members together.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5e"
+  },
+  "name": "Mask of Scents",
+  "description": "Wear it with [C] to heighten your sense of smell.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e5f"
+  },
+  "name": "Romani's Mask",
+  "description": "Wear it with [C] to show you're a member of the Milk Bar, Latte.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e60"
+  },
+  "name": "Circus Leader's Mask",
+  "description": "People related to Gorman will react to this.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e61"
+  },
+  "name": "Kafei's Mask",
+  "description": "Wear it with [C] to inquire about Kafei's whereabouts."
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e62"
+  },
+  "name": "Couple's Mask",
+  "description": "When you wear it with [C], you can soften people's hearts.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e63"
+  },
+  "name": "Mask of Truth",
+  "description": "Wear it to read the thoughts of Gossip Stones and animals.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e64"
+  },
+  "name": "Kamaro's Mask",
+  "description": "Wear this with [C] to perfom a mysterious dance.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e65"
+  },
+  "name": "Gibdo Mask",
+  "description": "Use it with [C]. Even a real Gibdo will mistake you from its own kind.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e66"
+  },
+  "name": "Garo's Mask",
+  "description": "This mask can summon the hidden Garo ninjas. Wear it with [C].",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e67"
+  },
+  "name": "Captain's Hat",
+  "description": "Wear it [C] to pose as Captain Keeta.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb376fd3a022732859e68"
+  },
+  "name": "Giant's Mask",
+  "description": "If you wear it in a certain room, you'll grow into a giant.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb383fd3a022732859e69"
+  },
+  "name": "Deku Mask",
+  "description": "Wear it with [C] to assume Deku form. Use [C] to change back.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb383fd3a022732859e6a"
+  },
+  "name": "Goron Mask",
+  "description": "Wear it with [C] to assume Goron form. Use [C] to change back.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb383fd3a022732859e6b"
+  },
+  "name": "Zora Mask",
+  "description": "Wear it with [C] to assume Zora form. Use [C] to change back.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb383fd3a022732859e6c"
+  },
+  "name": "Fierce Deity's Mask",
+  "description": "Wear it with [C]. Its dark power can be used <b>only</b> in boss rooms.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e6d"
+  },
+  "name": "Ocarina of Time",
+  "description": "This musical instrument is filled with memories of Princess Zelda. Play it with  [A] and the four [C] Buttons. Press [B] to stop.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e6e"
+  },
+  "name": "Hero's Bow",
+  "description": "Press [C] to shoot an <b>arrow</b>. Use [Stick] to aim.",
+  "stackSize": 30,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e6f"
+  },
+  "name": "Bomb",
+  "description": "Light and place it with [C]. Press [C] while running to throw it!",
+  "stackSize": 20,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e70"
+  },
+  "name": "Bombchu",
+  "description": "Arm and launch this wall-crawling bomb with [C].",
+  "stackSize": 40,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e71"
+  },
+  "name": "Deku Stick",
+  "description": "Use [C] to swing it. Stand still and press [A] to put it away.",
+  "stackSize": 10,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e72"
+  },
+  "name": "Deku Nut",
+  "description": "Press [C] to throw it. Upon impact, its flash blinds enemies, stopping them in their tracks.",
+  "stackSize": 20,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e73"
+  },
+  "name": "Magic Beans",
+  "description": "Use [C] to plant them. Plant them in <b>soft soil</b>.",
+  "stackSize": 10,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e74"
+  },
+  "name": "Powder Keg",
+  "description": "Carry and place it with [C]. Both its power and size are immense!",
+  "stackSize": 1,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e75"
+  },
+  "name": "Pictograph Box",
+  "description": "Use it with [C] and snap pictographs with [A]. You can keep only one shot at a time.",
+  "stackSize": 1,
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e76"
+  },
+  "name": "Lens of Truth",
+  "description": "Use [C] and magic to see what the naked eye cannot.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e77"
+  },
+  "name": "Hookshot",
+  "description": "Aim with [Stick]. Press [C] to fire the hook and grapple objects.",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e78"
+  },
+  "name": "Great Fairy's Sword",
+  "description": "The <b>most powerful</b> sword has black roses etched in its blade. Brandish it with [C].",
+  "category": "Usable"
+},{
+  "_id": {
+    "$oid": "618bb386fd3a022732859e79"
+  },
+  "name": "Empty Bottle",
+  "description": "Carry various items in this. Contain or release them with [C].",
+  "stackSize": 6,
+  "category": "Usable"
+}]

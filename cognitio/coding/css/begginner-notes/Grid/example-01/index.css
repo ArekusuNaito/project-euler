@@ -1,0 +1,32 @@
+html,body
+{
+    margin: 0;
+    height: 100vh;
+}
+
+.container
+{
+    border: 5px solid crimson;
+    text-align: center;
+    display: grid;
+    height: 98vh;
+    /* justify-content: space-around; */
+    /* each value of template-row/column represent how many columns/rows you want */
+    grid-template-columns: 150px 150px 150px; /*Here we are setting 3 columns (Y axis) */
+    grid-auto-rows: 100px; /**/
+    /* auto-rows = infinite rows, as much as needed */
+    gap: 0px; /*How separated are grid-items between each other*/
+    
+}
+
+
+
+.container>:nth-child(even) 
+{
+    background-color: cornflowerblue;
+}
+
+.container>:nth-child(odd)
+{
+    background-color: chocolate;
+}
